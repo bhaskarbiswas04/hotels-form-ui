@@ -1,8 +1,11 @@
 import './App.css';
+import AddNewHotel from "./components/AddNewHotel"
 
 function App() {
   return (
-    <main></main>
+    <main>
+      <AddNewHotel />
+    </main>
   );
 }
 
