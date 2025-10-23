@@ -304,7 +304,7 @@ const AddNewHotel = () => {
         <button type="submit">Submit</button>
       </form>
 
-      {/* Displaying newly added books. */}
+      {/* Displaying newly added hotels. */}
      <div style={{ marginTop: "30px" }}>
        <h3>Hotels Added:</h3>
        {addedHotels.length === 0 ? (
