@@ -25,7 +25,7 @@ const Hotels = ()=>{
         window.location.reload();
       }
     } catch (error) {
-      console.log("Failed to delete Hotel data from database.")
+      setSuccessMessage("Failed to delete Hotel data from database.");
     }
    }
 
@@ -43,6 +43,8 @@ const Hotels = ()=>{
            </li>
          ))}
        </ul>
+
+       <p style={{color:"green"}}>{successMessage}</p>
      </div>
    );
 }
